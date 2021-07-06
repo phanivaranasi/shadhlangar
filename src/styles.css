@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    margin:0px;
-    padding:0px;
+    margin:0;
+    padding:0;
 }
 
 .logo{
@@ -12,3 +12,49 @@ body{
     height: 2rem;
     border-radius: 5px
 }
+
+ 
+h1 {
+    
+    margin: 10px auto;
+    text-align: left;
+    color: black;
+    position: relative;
+  }
+  /* h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #CD5C5C;
+    left: 85px;
+    top: 50%;
+    position: absolute;
+  } */
+  
+  .bg-footer{
+    background-color: gainsboro;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    border-radius: 10px;
+    width: 85%;
+    height: 5px;
+    background: #0091D5;
+    right: 0px;
+    top: 50%;
+    position: absolute;
+  }
+
+  .footer{
+    margin-top:1rem !important;
+    padding:2rem !important;
+  }
+  
+  .footer-links li{
+    list-style: none;
+    float: left;
+    margin-left: 1px;
+    padding-right: 13px;
+  }

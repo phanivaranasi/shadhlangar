@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { SocialShareComponent } from './social-share/social-share.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { SocialShareComponent } from './social-share/social-share.component';
     HeaderComponent,
     LoginComponent,
     SocialShareComponent,
+    FooterComponent,
 
   ],
   imports: [
